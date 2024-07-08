@@ -1,4 +1,4 @@
-#include<iosteam>
+#include<iostream>
 enum year{jan ,feb,march,april,may,june,july,aug,sept,oct,nov dec};
 void main(){
     int i;
