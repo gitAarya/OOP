@@ -1,4 +1,7 @@
 {
     "terminal.explorerKind": "external",
-    "code-runner.runInTerminal": true
+    "code-runner.runInTerminal": true,
+    "files.associations": {
+        "BinNUm.C": "cpp"
+    }
 }
