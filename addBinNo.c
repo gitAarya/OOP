@@ -6,7 +6,7 @@ int main (){
     scanf(" %ld",&a);
 
     printf(" enter the second binary number :\n");
-    scanf("%ld",b);
+    scanf("%ld",&b);
 
     while (a!=0 || b!=0)
     {
