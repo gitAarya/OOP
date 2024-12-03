@@ -12,11 +12,7 @@ int main(){
     return 0;
  
 }
-   int Implication(int a, int b){
-        if(a==1 && b==0){
-            return 0;
-        }
-        else{
-            return 1;
-        }
+   int Implication(int p, int q){
+    return !p||q;
+
     }

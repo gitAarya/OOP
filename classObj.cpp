@@ -1,12 +1,13 @@
 #include <iostream>
+using namespace std;
 class Car{
     public:
-    std::string Brand;
-    std::string color;
+    string Brand;
+    string color;
     int year;
 
     void start(){
-        std::cout<<"car Started"<<std:: endl;
+        cout<<"car Started"<< endl;
 
     }
 
@@ -18,8 +19,8 @@ car.Brand="mustang";
 car.year=1994;
 car.start();
 
- std::cout<<car.Brand<<std::endl;
- std::cout<<car.color<<std::endl;
- std::cout<<car.year<<std::endl;
+ cout<<car.Brand<<endl;
+ cout<<car.color<<endl;
+ cout<<car.year<<endl;
 
 }
